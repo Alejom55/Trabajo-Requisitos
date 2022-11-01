@@ -10,7 +10,7 @@
 
     if(mysqli_num_rows($validar_login) > 0){
         $_SESSION['cedula'] = $correo;
-        header("location: ../ventanas/ventana_1/sintomasENG.php");
+        header("location: ../ventanas/ventana1/sintomasENG.php");
         exit;
     }else{
         echo'

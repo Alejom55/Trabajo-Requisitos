@@ -61,16 +61,6 @@ function CuartoColor(){
     document.getElementById("bodyEspannol").style.background = "#FFCA00";
 };
 
-//Caracteres Especiales
-//Solo numeros en la cedula
-
-//function validaNumericos(event) {
-//    if(event.charCode >= 48 && event.charCode <= 57){
-//      return true;
-//     }
-//     return false;        
-//}
-
 onload = function(){ 
     var ele = document.querySelectorAll('.validanumericos')[0];
     ele.onkeypress = function(e) {

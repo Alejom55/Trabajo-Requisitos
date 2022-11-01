@@ -96,43 +96,32 @@ function eliminar(ola){
         if (ola.options[i].value == "tos")
             ola.remove(i);
     }
-    //for(i=0;i<ola.length;i++)
-    //  if(ola.options[i].selected==true)
-    //  {
-    //    ola.remove(i);
-    //    i--;
-    //  }
   }
   
 function Limpiar(){
     document.getElementById("prueba").innerHTML = ""
-}
-function DefaultColor(){
-    document.body.style.background = "#07B8FF"
-   
-}
-
+};
 function PrimerColor(){
 
-   
-    document.body.style.background = "#F95F5F"
-}
+    document.getElementById("bodySintomas").style.background = "#93EFFF";
+
+};
 
 function SegundoColor(){
 
-    document.body.style.background = "#0375FF"
-}
+    document.getElementById("bodySintomas").style.background = "#00FFDD";
+    //document.bodySintomas.style.background = "#00FFDD"
+};
 
 function TercerColor(){
 
-    document.body.style.background = "#D7DA62"
-}
+    document.getElementById("bodySintomas").style.background = "#0375FF";
+};
+
+function CuartoColor(){
+
+    document.getElementById("bodySintomas").style.background = "#FFCA00";
+};
 
 
-document.getElementById("def").addEventListener("click", DefaultColor);
-document.getElementById("color1").addEventListener("click", PrimerColor);
-document.getElementById("color2").addEventListener("click", SegundoColor);
-document.getElementById("color3").addEventListener("click", TercerColor);
-document.getElementById("enviar").addEventListener("onclick", promediar);
-document.getElementById("enviar").addEventListener("dblclick", Limpiar);
 
