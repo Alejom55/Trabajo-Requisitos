@@ -37,32 +37,48 @@ function limpiar(){
     document.getElementById("login_correo").value = "";
     document.getElementById("login_contrasena").value = "";
 };
-function DefaultColor(){
-
-    //document.body.style.background = "red"
-    document.getElementById("ref").style.background = "#00FFDD";
-
-}
+//Cambiar Colores
 
 function PrimerColor(){
 
-    document.getElementById("bodyEspannol").style.background = "#00FFDD"
-    //document.body.style.background = "#00FFDD"
-}
+    document.getElementById("bodyEspannol").style.background = "#93EFFF";
+
+};
 
 function SegundoColor(){
 
-    document.body.style.background = "#0375FF"
-}
+    document.getElementById("bodyEspannol").style.background = "#00FFDD";
+    //document.body.style.background = "#00FFDD"
+};
 
 function TercerColor(){
 
-    document.body.style.background = "#FFCA00"
-}
+    document.getElementById("bodyEspannol").style.background = "#0375FF";
+};
 
+function CuartoColor(){
 
-//document.getElementById("def").addEventListener("click", DefaultColor);
-//document.getElementById("color1").addEventListener("click", PrimerColor);
-//document.getElementById("color2").addEventListener("click", SegundoColor);
-//document.getElementById("color3").addEventListener("click", TercerColor);
+    document.getElementById("bodyEspannol").style.background = "#FFCA00";
+};
+
+//Caracteres Especiales
+//Solo numeros en la cedula
+
+//function validaNumericos(event) {
+//    if(event.charCode >= 48 && event.charCode <= 57){
+//      return true;
+//     }
+//     return false;        
+//}
+
+onload = function(){ 
+    var ele = document.querySelectorAll('.validanumericos')[0];
+    ele.onkeypress = function(e) {
+       if(isNaN(this.value+String.fromCharCode(e.charCode)))
+          return false;
+    }
+    ele.onpaste = function(e){
+       e.preventDefault();
+    }
+  }
 

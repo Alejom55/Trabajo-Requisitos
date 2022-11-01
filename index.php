@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0">
     <title>Login y Registro - Vida</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,10 +26,10 @@
             <form action="english.php" class="inline">
                 <button id="eng" class="float-left submit-button" >Inglés</button>
             </form>
-            <button type="button" id="def" onclick="DefaultColor()">Default</button>
-            <button type="button" onclick="PrimerColor()" id="color1">Tritanopía</button>
-            <button type="button" onclick="" id="color2">Protanopia</button>
-            <button type="button" onclick="" id="color3">Deuteranopia</button>
+            <button type="button" onclick="PrimerColor()" id="colorDef">Default</button>
+            <button type="button" onclick="SegundoColor()" id="color1">Tritanopía</button>
+            <button type="button" onclick="TercerColor()" id="color2">Protanopia</button>
+            <button type="button" onclick="CuartoColor()" id="color3">Deuteranopia</button>
         </header>
         <div class="contenedor__todo">
             <div class="caja__trasera">
@@ -58,9 +58,9 @@
                 <form action="php/registro_usuario_be.php" method="POST" class="formualrio__register">
                     <h2>VIDA</h2>
                     <h2>Registrarse</h2>
-                    <input type="text" id="nombre_completo" placeholder="Nombre completo" name="nombre_completo" required>
-                    <input type="text" id="correo" placeholder="Correo electronico" name="correo" required>
-                    <input type="text" id="cedula" placeholder="Cedula" name="cedula" required>
+                    <input type="text" id="nombre_completo" placeholder="Nombre completo" name="nombre_completo" required pattern="[a-zA-Z ]{2,254}" required>
+                    <input type="email" id="correo" placeholder="Correo electronico" name="correo" required pattern="+@globex\.com"required>
+                    <input type="text" id="cedula" placeholder="Cedula" name="cedula" class="validanumericos" required>
                     <input type="password" id="contrasena" placeholder="Contraseña" name="contrasena" required>
                     <input type="password" id="confirmar_contrasena" placeholder="Confirmar contraseña" name="confirmar_contrasena" required>
                     <button>Registrarse</button>
