@@ -1,0 +1,104 @@
+.body{
+    background-color: #07B8FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#titulo{
+    position: fixed;
+    left: 650px;
+    bottom: 800px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.caja_trasera {
+
+    position: fixed;
+    left: 590px;
+    bottom: 150px;
+    border: 5px  black;
+    border-style: solid;
+    width: 30%;
+    background-image: url(../../images/fondo.jpg);
+    
+}
+.caja_trasera h3{
+    position: relative;
+    left: 7em;
+    margin: 10px;
+    
+    width: fit-content;
+}
+.caja_trasera .sintomas{
+    position: relative;
+    left: 9em;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    opacity: 1;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    position: relative;
+    top: 4em;
+    right: 2em;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 50px;
+    
+}
+#color3{
+    width: 100px;
+}
+
+header button{
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #CB2D2D;
+    font-family: 'Montserrat', sans-serif;
+    color: #f2f2f2;
+    border-width: 0ch;
+}
+header button:hover{
+
+    width: 75px;
+    height: 25px;
+    background-color: #f14242;
+    transition: 0.1s;
+}
+#enviar{
+    position: fixed;
+    bottom: 70px;
+    height: 50px;
+    width: 150px;
+    background: white;
+    border-radius: 100px;
+    color: white;
+    background-color: #CB2D2D;
+    font-size: large;
+    border: 0px;
+}
+#enviar:hover{
+    background-color: #f14242;
+    transition: 0.1s;
+}
+.caja_trasera label{
+    font-size: 24px;
+    position: fixed;
+    bottom: 75px;
+    right: 800px;
+}
+
