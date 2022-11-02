@@ -41,6 +41,9 @@
                 <option value="dolor de cabeza">Dolor de cabeza</option>
                 <option value="fatiga">Fatiga</option>
                 <option value="congestion">Congestion</option>
+                <option value="dolor de oido">Dolor de oido</option>
+                <option value="nerviosismo">Nerviosismo</option>
+                <option value="dificultad para dormir">Dificultad para dormir</option>
             </select>
             <h3>Sintoma #2</h3>
             <select id="dd2" class="sintomas">
@@ -51,6 +54,9 @@
                 <option value="dolor de cabeza">Dolor de cabeza</option>
                 <option value="fatiga">Fatiga</option>
                 <option value="congestion">Congestion</option>
+                <option value="dolor de oido">Dolor de oido</option>
+                <option value="nerviosismo">Nerviosismo</option>
+                <option value="dificultad para dormir">Dificultad para dormir</option>
             </select>
             <h3>Sintoma #3</h3>
             <select id="dd3" class="sintomas">
@@ -61,6 +67,9 @@
                 <option value="dolor de cabeza">Dolor de cabeza</option>
                 <option value="fatiga">Fatiga</option>
                 <option value="congestion">Congestion</option>
+                <option value="dolor de oido">Dolor de oido</option>
+                <option value="nerviosismo">Nerviosismo</option>
+                <option value="dificultad para dormir">Dificultad para dormir</option>
             </select>
             <h3>Sintoma #4</h3>
             <select id="dd4" class="sintomas">
@@ -71,6 +80,9 @@
                 <option value="dolor de cabeza">Dolor de cabeza</option>
                 <option value="fatiga">Fatiga</option>
                 <option value="congestion">Congestion</option>
+                <option value="dolor de oido">Dolor de oido</option>
+                <option value="nerviosismo">Nerviosismo</option>
+                <option value="dificultad para dormir">Dificultad para dormir</option>
             </select>
             <h3>Sintoma #5</h3>
             <select id="dd5" class="sintomas">
@@ -81,6 +93,9 @@
                 <option value="dolor de cabeza">Dolor de cabeza</option>
                 <option value="fatiga">Fatiga</option>
                 <option value="congestion">Congestion</option>
+                <option value="dolor de oido">Dolor de oido</option>
+                <option value="nerviosismo">Nerviosismo</option>
+                <option value="dificultad para dormir">Dificultad para dormir</option>
             </select>
             <input type="button"  id="enviar" onclick="promediar()" value="Calcular">    
             <label id="prueba" for="enviar"></label>
