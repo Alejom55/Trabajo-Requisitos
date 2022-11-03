@@ -24,7 +24,7 @@ header form{
 #titulo{
     position: fixed;
     top: 1%;
-    right: 38%;
+    right: 33%;
     margin-bottom: 30px;
     text-align: center;
     
@@ -34,6 +34,7 @@ header form{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 50px;
     width: 25%;
     background-color:rgba(36, 114, 123, 0.6);
 

@@ -28,7 +28,7 @@
             <button type="button" onclick="SegundoColor()" id="color1">Tritanopía</button>
             <button type="button" onclick="TercerColor()" id="color2">Protanopia</button>
             <button type="button" onclick="CuartoColor()" id="color3">Deuteranopia</button>
-            <a href="../../../php/cerrar_sesion.php" id="cerrar">Log out</a>
+            <a href="../../../php/cerrar_sesion_ENG.php" id="cerrar">Log out</a>
         </header>
     <div class="contenedor_todo">
         <div class="cuadrado_trasero">
@@ -52,6 +52,7 @@
                 <h2>Treatments</h2>
                 <p>Treatment deals with symptomatic relief. Recovery takes about two weeks. It is possible to prevent the disease with the triple viral vaccine.</p>
             </div>
+            <button type="button" onclick="citaMedicaENG()" id="cita">schedule appointment</button>
         </div>
     </div>
     </main>

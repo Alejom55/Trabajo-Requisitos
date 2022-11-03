@@ -124,6 +124,6 @@
         <label id="prueba" for="enviar"></label>
         <input type="button"  id="enviar" onclick="promediar()" value="Calcular">
     </div>    
-    <script src="../../assets/js/EnfermedadesENG.js"></script>
+    <script src="../../assets/js/EnfermedadesESP.js"></script>
 </body>
 </html>

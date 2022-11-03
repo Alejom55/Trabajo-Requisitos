@@ -92,16 +92,16 @@ function promediar() {
         document.getElementById("prueba").innerHTML = "You must select at least two symptoms";
     }
     else if(calcularEnfermedad(filtro).nombre == "Gripa"){
-        location.href="../ventana2/en/flu.html"
+        location.href="../ventana2/en/flu.php"
         }
     else if(calcularEnfermedad(filtro).nombre == "Infección de oído"){
-            location.href="../ventana2/en/hate_infection.html"
+            location.href="../ventana2/en/hate_infection.php"
             }
     else if(calcularEnfermedad(filtro).nombre == "Paperas"){
-        location.href="../ventana2/en/mumps.html"
+        location.href="../ventana2/en/mumps.php"
         }
     else if(calcularEnfermedad(filtro).nombre == "Faringitis"){
-        location.href="../ventana2/en/pharyngitis.html"
+        location.href="../ventana2/en/pharyngitis.php"
         }
 }
 

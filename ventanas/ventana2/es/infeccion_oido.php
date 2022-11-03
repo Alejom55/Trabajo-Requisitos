@@ -52,7 +52,7 @@
                 <h2>Tratamientos</h2>
                 <p>La mayoría de las infecciones de oído desaparecen sin necesidad de tratamientos. Otros casos requieren antibióticos.</p>
             </div>
-            
+            <button type="button" onclick="citaMedicaESP()" id="cita">Programar cita</button>
         </div>
     </div>
     </main>

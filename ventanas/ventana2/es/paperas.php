@@ -52,7 +52,7 @@
                 <h2>Tratamientos</h2>
                 <p>El tratamiento se ocupa del alivio sintomático. La recuperación tarda aproximadamente dos semanas. Es posible evitar la enfermedad con la vacuna triple viral.</p>
             </div>
-            
+            <button type="button" onclick="citaMedicaESP()" id="cita">Programar cita</button>
         </div>
     </div>
     </main>

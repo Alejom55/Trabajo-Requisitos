@@ -56,9 +56,9 @@
             </div>
             <div class="relacionados">
                 <h2>Enfermedades similares</h2>
-                <a href="./faringitis.html">Faringitis</a>
+                <a href="./faringitis.php">Faringitis</a>
             </div>
-            
+            <button type="button" onclick="citaMedicaESP()" id="cita">Programar cita</button>
             
         </div>
     </div>

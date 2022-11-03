@@ -18,6 +18,8 @@ const paperas = new Enfermedad("Paperas",
 
 const faringitis = new Enfermedad("Faringitis",
     ["dolor de garganta", "molestia al digerir", "fiebre"])
+
+    
 var lstEnfermedades = [gripa, infeccionDeOido, paperas, faringitis]
 
 var doodle1 = document.getElementById("dd1");
@@ -90,16 +92,16 @@ function promediar() {
         document.getElementById("prueba").innerHTML = "Debes seleccionar minimo dos sintomas";
     }
     else if(calcularEnfermedad(filtro).nombre == "Gripa"){
-        location.href="../ventana2/es/gripa.html"
+        location.href="../ventana2/es/gripa.php"
         }
     else if(calcularEnfermedad(filtro).nombre == "Infección de oído"){
-            location.href="../ventana2/es/infeccion_oido.html"
+            location.href="../ventana2/es/infeccion_oido.php"
             }
     else if(calcularEnfermedad(filtro).nombre == "Paperas"){
-        location.href="../ventana2/es/paperas.html"
+        location.href="../ventana2/es/paperas.php"
         }
     else if(calcularEnfermedad(filtro).nombre == "Faringitis"){
-        location.href="../ventana2/es/faringitis.html"
+        location.href="../ventana2/es/faringitis.php"
         }
 }
 

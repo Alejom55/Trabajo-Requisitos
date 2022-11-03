@@ -17,3 +17,13 @@ function CuartoColor(){
 
     document.getElementById("body").style.background = "#FFCA00";
 };
+
+
+function citaMedicaESP(){
+    alert("Cita medica programada!")
+}
+
+function citaMedicaENG(){
+    alert("scheduled medical appointment!")
+}
+

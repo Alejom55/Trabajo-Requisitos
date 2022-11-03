@@ -53,8 +53,9 @@
             </div>
             <div class="relacionados">
                 <h2>Enfermedades similares</h2>
-                <a href="./gripa.html">Gripa</a>
+                <a href="./gripa.php">Gripa</a>
             </div>
+            <button type="button" onclick="citaMedicaESP()" id="cita">Programar cita</button>
         </div>
     </div>
     </main>

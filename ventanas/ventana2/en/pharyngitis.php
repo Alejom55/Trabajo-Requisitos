@@ -28,7 +28,7 @@
             <button type="button" onclick="SegundoColor()" id="color1">Tritanopía</button>
             <button type="button" onclick="TercerColor()" id="color2">Protanopia</button>
             <button type="button" onclick="CuartoColor()" id="color3">Deuteranopia</button>
-            <a href="../../../php/cerrar_sesion.php" id="cerrar">Log out</a>
+            <a href="../../../php/cerrar_sesion_ENG.php" id="cerrar">Log out</a>
         </header>
     <div class="contenedor_todo">
         <div class="cuadrado_trasero">
@@ -53,8 +53,9 @@
             </div>
             <div class="relacionados">
                 <h2>Similar diseases</h2>
-                <a href="./flu.html">Flu</a>
+                <a href="./flu.php">Flu</a>
             </div>
+            <button type="button" onclick="citaMedicaENG()" id="cita">schedule appointment</button>
         </div>
     </div>
     </main>
