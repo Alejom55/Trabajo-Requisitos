@@ -1,0 +1,35 @@
+*{
+    /*margin: 0;*/
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #93efff;
+}
+
+header{
+    margin-top: 0px;
+    text-align: right;
+    margin-right: 50px;
+}
+header button{
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #CB2D2D;
+    color: #f2f2f2;
+    border-width: 0ch;
+}
+#color3,#color2,#color1,#colorDef{
+    width:100px;
+}
+header button:hover{
+
+    width: 75px;
+    height: 25px;
+    background-color: #f14242;
+    transition: 0.1s;
+}

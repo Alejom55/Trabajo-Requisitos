@@ -10,36 +10,47 @@
 body{
     background-color: #93EFFF;
 }
-
-
+header form{
+    position: relative; 
+    right: 200px;
+    
+}
+#cerrar{
+    background-color: #CB2D2D;
+    color: #f2f2f2;
+    border-radius: 10px;
+    font-size: large;
+}
 #titulo{
     position: fixed;
-    left: 650px;
-    bottom: 500px;
+    top: 1%;
+    right: 38%;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     
 }
 .caja_trasera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    background-color:rgba(36, 114, 123, 0.6);
 
-    position: relative;
-    left: 40%;
-    top: 40%;
-    border: 5px  black;
-    border-radius: 50px;
-    border-style: solid;
-    height: min-content;
-    width: 20%;
+}
 
-    
+
+.contenido{
+    text-align: center;
+
 }
 .caja_trasera h3{
- 
     position: relative;
-    left: 5%;
+    top: 40%;
+    left: 50%;
     margin: 10px;
-    
     width: fit-content;
+    transform: translate(-50%, -3%);
 }
 .caja_trasera .sintomas{
     position: relative;
@@ -50,7 +61,7 @@ body{
     margin-bottom: 30px;
     opacity: 1;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+
 }
 header{
     position: relative;
@@ -61,8 +72,12 @@ header{
     margin-right: 50px;
     
 }
-#color3{
-    width: 100px;
+#color3,#color2,#color1,#colorDef{
+    width:100px;
+}
+
+#prueba{
+    right: 110%;
 }
 
 header button{
@@ -70,12 +85,11 @@ header button{
     height: 25px;
     border-radius: 10px;
     background-color: #CB2D2D;
-    font-family: 'Montserrat', sans-serif;
     color: #f2f2f2;
     border-width: 0ch;
 }
-header button:hover{
 
+header button:hover{
     width: 75px;
     height: 25px;
     background-color: #f14242;
@@ -83,11 +97,10 @@ header button:hover{
 }
 #enviar{
     position: fixed;
-    right: 100px;
-    bottom: 10px;
+    bottom: 0;
+    left: 110%;
     height: 50px;
     width: 150px;
-    background: white;
     border-radius: 100px;
     color: white;
     background-color: #CB2D2D;
